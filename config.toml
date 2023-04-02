@@ -1,4 +1,5 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-disableKinds = ['taxonomy', 'term']
+baseURL = "http://huilla.net/"
+languageCode = "en-us"
+title = "Leo's webpage"
+disableKinds = ["taxonomy", "term"]
+theme = "hugo-starter-theme-master"
