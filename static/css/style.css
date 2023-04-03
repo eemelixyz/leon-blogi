@@ -61,7 +61,7 @@ code {
 
 .hero img {
   #border-radius: 5%;
-  width: 100%;
+  width: 50%;
 }
 
 @media screen and (max-width: 48rem) {
