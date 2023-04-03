@@ -1,5 +1,50 @@
-baseURL = "http://huilla.net/"
-languageCode = "en-us"
-title = "Leo's webpage"
-disableKinds = ["taxonomy", "term"]
-theme = "hugo-starter-theme-master"
+baseURL = "https://huilla.net/"
+title = "🏡 Leo Huilla"
+
+[params]
+   description = "Hello, I am Leo Huilla. Welcome to my webpage!"
+   #copyright = "Copyright © 2020 Your Name"
+   dark = "off"
+   highlight = true
+   enableEmoji = true
+   customCSS = ["custom.css"]
+
+[permalinks]
+    post = "/:title/"
+
+[menu]
+
+  [[menu.main]]
+    name = "📝Writings"
+    url = "/writings"
+    weight = 10
+
+ # [[menu.main]]
+  #  name = "Videos"
+   # url = "/videos"
+   # weight = 20
+
+  [[menu.main]]
+    name = "💻Stuff I Use"
+    url = "/uses"
+    weight = 20
+
+  [[menu.main]]
+    name = "🔗Links"
+    url = "/links"
+    weight = 30
+
+  [[menu.main]]
+    name = "💸Donate"
+    url = "/donate"
+    weight = 40
+
+ # [[menu.main]]
+  #  name = "Contact"
+   # url = "mailto:eric@ericmurphy.xyz"
+    #weight = 60
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
+

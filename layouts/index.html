@@ -1,4 +1,13 @@
-{{ define "main" }}
-	{{ .Content }}
-  <p>This line is from <code>layouts/index.html</code>.</p>
-{{ end }}
+{{ partial "header.html" . }}
+
+<section class="hero">
+<div>
+{{ .Content }}
+</div>
+<div>
+<img src="/images/leo.JPG" alt="Leo Huilla" />
+</div>
+</section>
+
+{{ partial "footer.html" . }}
+
