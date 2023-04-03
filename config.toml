@@ -7,7 +7,6 @@ title = "🏡 Leo Huilla"
    dark = "off"
    highlight = true
    enableEmoji = true
-   customCSS = ["custom.css"]
 
 [permalinks]
     post = "/:title/"
@@ -18,11 +17,6 @@ title = "🏡 Leo Huilla"
     name = "📝Writings"
     url = "/writings"
     weight = 10
-
- # [[menu.main]]
-  #  name = "Videos"
-   # url = "/videos"
-   # weight = 20
 
   [[menu.main]]
     name = "💻Stuff I Use"
@@ -37,12 +31,12 @@ title = "🏡 Leo Huilla"
   [[menu.main]]
     name = "💸Donate"
     url = "/donate"
-    weight = 40
+    weight = 50
 
- # [[menu.main]]
-  #  name = "Contact"
-   # url = "mailto:eric@ericmurphy.xyz"
-    #weight = 60
+  [[menu.main]]
+    name = "🚧Projects"
+    url = "/projects"
+    weight = 40
 
 [markup.goldmark.renderer]
   # Allows HTML in Markdown
