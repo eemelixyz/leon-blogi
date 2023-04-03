@@ -19,24 +19,24 @@ title = "🏡Leo Huilla"
     weight = 10
 
   [[menu.main]]
-    name = "💻Stuff I Use"
-    url = "/uses"
+    name = "🚧Projects"
+    url = "/projects"
     weight = 20
 
-  [[menu.main]]
+   [[menu.main]]
     name = "🔗Links"
     url = "/links"
     weight = 30
+
+[[menu.main]]
+    name = "💻Stuff I Use"
+    url = "/uses"
+    weight = 40
 
   [[menu.main]]
     name = "💸Donate"
     url = "/donate"
     weight = 50
-
-  [[menu.main]]
-    name = "🚧Projects"
-    url = "/projects"
-    weight = 40
 
 [markup.goldmark.renderer]
   # Allows HTML in Markdown
