@@ -64,9 +64,6 @@ code {
   width: 70%;
 }
 
-.hero gif {
-  #border-radius: 0%;
-  width: 40%;
 
 @media screen and (max-width: 48rem) {
   .hero {
