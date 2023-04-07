@@ -6,3 +6,6 @@ I am a student at Sataedu vocational school studying electrical engineering and 
 
 You can email me at    
 📧 - <i>[leo@huilla.net](mailto:leo@huilla.net)</i>
+
+
+<img src="/images/constructionguy.gif" alt="constructionguy" /> - Page under construction.
