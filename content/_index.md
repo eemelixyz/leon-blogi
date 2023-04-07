@@ -8,4 +8,4 @@ You can email me at
 📧 - <i>[leo@huilla.net](mailto:leo@huilla.net)</i>
 
 
-<img class="gif" src="/images/constructionguy.gif" alt="constructionguy" /> - Page under construction.
+<img src="/images/constructionguy.gif" width="100px" height=100px" alt="constructionguy" /> - Page under construction.
